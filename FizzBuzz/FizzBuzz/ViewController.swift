@@ -9,10 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var game: Game? // sot
+    var gameScore: Int?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        game = Game()
+    }
+    
+    func play(move: String) {
+        guard let game = game else { return }
+        let response = game.play(move: move)
+        gameScore = response.score
     }
 
 
