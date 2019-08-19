@@ -108,12 +108,11 @@
 				15012FFA2309BC7600F5531A /* AppDelegate.swift */,
 				15012FFC2309BC7600F5531A /* SceneDelegate.swift */,
 				15012FFE2309BC7600F5531A /* ViewController.swift */,
-				150130002309BC7600F5531A /* Main.storyboard */,
+				158E73B7230B19FA00F986BD /* View */,
 				150130032309BC7700F5531A /* Assets.xcassets */,
 				150130052309BC7700F5531A /* LaunchScreen.storyboard */,
 				150130082309BC7700F5531A /* Info.plist */,
-				1501302C2309C1B400F5531A /* Brain.swift */,
-				150130302309D1F200F5531A /* Game.swift */,
+				158E73B6230B121900F986BD /* Model */,
 			);
 			path = FizzBuzz;
 			sourceTree = "<group>";
@@ -135,6 +134,23 @@
 				1501301E2309BC7700F5531A /* Info.plist */,
 			);
 			path = FizzBuzzUITests;
+			sourceTree = "<group>";
+		};
+		158E73B6230B121900F986BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1501302C2309C1B400F5531A /* Brain.swift */,
+				150130302309D1F200F5531A /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		158E73B7230B19FA00F986BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				150130002309BC7600F5531A /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
